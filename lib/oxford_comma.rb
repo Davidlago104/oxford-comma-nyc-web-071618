@@ -8,6 +8,8 @@ def oxford_comma(array)
      else if array.length == 3 
        new_array = array.insert(2, "and").each_with_index.map do |word|
          if word != "and" 
+           word + ","
+           break
          else
            word
          end
