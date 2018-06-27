@@ -9,7 +9,6 @@ def oxford_comma(array)
        new_array = array.insert(2, "and").map do |word|
          if word != "and" 
            word + ","
-           break
          else
            word
          end
