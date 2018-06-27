@@ -14,14 +14,10 @@ def oxford_comma(array)
            word
          end
        end
-      new_array.join(" ").chomp(",")
-        else if array.length == 4
-        arr = array.insert(3, "and").map do |word|
-          if word != "and"
-            word + ","
-          else
-            word
-        end
+       new_array.join(" ").chomp(",")
+        # else if array.length == 4
+        # arr = 
+        # end
       end
      end
     end
