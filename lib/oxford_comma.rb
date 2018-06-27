@@ -16,7 +16,11 @@ def oxford_comma(array)
        end
       new_array.join(" ").chomp(",")
         else if array.length == 4
-        arr = 
+        arr = array.insert(3, "and").map do |word|
+          if word != "and"
+            word + ","
+          else
+            word
         end
       end
      end
