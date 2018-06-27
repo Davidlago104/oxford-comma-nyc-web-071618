@@ -14,9 +14,9 @@ def oxford_comma(array)
          end
        end
        new_array.join(" ").chomp(",")
-      else if array.length == 4
-     puts "We're at 4!"
-     end
+      end
      end
     end
+    else if array.length == 4
+     puts "We're at 4!"
 end
