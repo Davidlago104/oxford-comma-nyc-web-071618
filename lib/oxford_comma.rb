@@ -13,7 +13,7 @@ def oxford_comma(array)
            word
          end
        end
-       new_array.join(" ")
+       new_array.join(" ").chomp(",")
      end
      end
     end
